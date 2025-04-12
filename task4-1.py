@@ -16,13 +16,13 @@ chetnie = [x for x in numbers if x % 2 == 0]
 print(chetnie)
 
 
-def factorial(n):
+def fact(n):
     res = 1
     for i in range(1, n + 1):
         res *= i
     return res
 
-factorials = {n: factorial(n) for n in range(1, 6)}
+factorials = {n: fact(n) for n in range(1, 6)}
 print(factorials)
 
 # Через библиотеку, которую импортировал вначале программы
