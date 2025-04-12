@@ -17,10 +17,10 @@ print(chetnie)
 
 
 def fact(n):
-    res = 1
+    s = 1
     for i in range(1, n + 1):
-        res *= i
-    return res
+        s *= i
+    return s
 
 factorials = {n: fact(n) for n in range(1, 6)}
 print(factorials)
